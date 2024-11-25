@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Veterinaria</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            background-color: #28a745;
+        }
+        .navbar-nav .nav-link {
+            color: white !important;
+        }
+        .hero {
+            background: url('https://example.com/hero-image.jpg') no-repeat center center;
+            background-size: cover;
+            height: 400px;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .service {
+            margin: 20px 0;
+        }
+        .team-member {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .contact-card {
+            font-size: 24px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .contact-card:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            background-color: #343a40;
+            color: green;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .social-icons a {
+            color: green;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Clínica Veterinaria</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#equipo">Nuestro Equipo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+       <!-- Sección de Inicio -->
+    <section id="inicio" class="jumbotron jumbotron-fluid text-center">
+        <div class="container">
+            <h1 class="display-4">¡Bienvenido a nuestra Clínica Veterinaria!</h1>
+            <p class="lead">Nos dedicamos al bienestar de tus mascotas con amor y profesionalismo.</p> <img src="https://i.pinimg.com/564x/58/78/39/587839f92171c8da18532d51c61795d9.jpg"<a href="#contacto" 
+            class="btn btn-light">Contáctanos</a>
+    </header>
+
+    <section class="container" id="servicios">
+        <h2 class="text-center my-5">Nuestros Servicios 🐾</h2>
+        <div class="row">
+            <div class="col-md-4 service">
+                <img src="https://i.pinimg.com/564x/83/21/0c/83210cfa9c5b7e12e69190c2519a1dc0.jpg" class="img-fluid" alt="Servicio 1">
+                <h3>Consulta Veterinaria</h3>
+                <p>Ofrecemos consultas completas para asegurar la salud de tu mascota.</p>
+            </div>
+            <div class="col-md-4 service">
+                <img src="https://i.pinimg.com/564x/6f/f6/ff/6ff6ff788db15256f37063928fed9d6b.jpg" class="img-fluid" alt="Servicio 2">
+                <h3>Vacunación</h3>
+                <p>Protegemos a tu mascota con las mejores vacunas disponibles.</p>
+            </div>
+            <div class="col-md-4 service">
+                <img src="https://i.pinimg.com/564x/cb/99/61/cb9961363d401f6e48af3735a01a01a3.jpg" class="img-fluid" alt="Servicio 3">
+                <h3>Cirugía</h3>
+                <p>Contamos con un equipo especializado para realizar cirugías seguras.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container" id="equipo">
+        <h2 class="text-center my-5">Nuestro Equipo Profesional 👩‍⚕️👨‍⚕️</h2>
+        <div class="row">
+            <div class="col-md-4 team-member">
+                <img src="https://i.pinimg.com/564x/d3/6b/aa/d36baa60e5b8f9557cd2b405dfc3ec42.jpg" class="img-fluid" alt="Veterinario 1">
+                <h4>Dr. Diogenes Pérez Cruz</h4>
+                <p>Especialista en medicina interna.</p>
+            </div>
+            <div class="col-md-4 team-member">
+                <img src="https://i.pinimg.com/564x/11/78/65/1178657f1f9c09c56b32755291d0e6c9.jpg" class="img-fluid" alt="Veterinario 2">
+                <h4>Dra. Maricruz Delgado Ortiz</h4>
+                <p>Experta en cirugía y traumatología.</p>
+            </div>
+            <div class="col-md-4 team-member">
+                <img src="https://i.pinimg.com/564x/17/f9/91/17f99170ce0b6d3f189ba653bf981c9e.jpg" class="img-fluid" alt="Veterinario 3">
+                <h4>Dr. Flawell Leonardo Vanetto</h4>
+                <p>Veterinario especializado en dermatología y quimioterapia.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container" id="contacto">
+        <h2 class="text-center my-5">Contactanos! 📞</h2>
+        <div class="contact-card">
+            <p>Teléfono: <strong>829-331-5521</strong></p>
+        </div>
+        <form class="mt-4" onsubmit="return validateForm()">
+            <div class="form-group">
+                <label for="name">Nombre</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensaje</label>
+                <textarea class="form-control" id="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-success">Enviar</button>
+        </form>
+        <p class="text-center mt-3">WhatsApp: <strong>809-221-4242</strong></p>
+    </section>
+
+    <footer>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p>&copy; 2024 Clínica Veterinaria. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        function validateForm() {
+            // Simple form validation
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var message = document.getElementById("message").value;
+
+            if (!name || !email || !message) {
+                alert("Por favor, completa todos los campos.");
+                return false;
+            }
+            return true;
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
